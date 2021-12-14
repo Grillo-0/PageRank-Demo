@@ -1,11 +1,13 @@
 # PageRank-Demo
+![image](https://github.com/Grillo-0/PageRank-Demo/blob/media/graph.svg)
+
 A PageRank demonstration for a Linear Algebra presentation
 
-# Prerequisites
+## Prerequisites
 - [Armadillo](http://arma.sourceforge.net/) Linear Algebra Library
 - [graphviz](https://graphviz.org/)
 
-# How to run
+## How to run
 
 Compile it by
 
