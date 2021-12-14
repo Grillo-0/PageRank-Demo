@@ -6,7 +6,7 @@ arma::sp_mat generateLinkMatrix(std::size_t nNodes, std::size_t maxEdgesPerNode)
 
 	arma::sp_mat linkMatrix{nNodes, nNodes};
 	for(int i=0; i<nNodes ; ++i){
-		std::size_t nLinks = rand() % maxEdgesPerNode;
+		std::size_t nLinks = rand() % (maxEdgesPerNode+1);
 
 		std::vector<std::size_t> pos;
 		for(int j=0; j<nNodes; ++j){
